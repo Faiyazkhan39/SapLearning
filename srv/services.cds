@@ -9,6 +9,8 @@ service BookService {
     end as CDESC : String(20) @(title: '{i18nn>CURRENCY}'),
      category as genre} excluding { createdAt, createdBy, modifiedAt, modifiedBy };
     @readonly entity Authors as projection on database.Authors;
+
+    @readonly entity AddressSrv as projection on database.Addresses;
 }
 
 service OrdersService {

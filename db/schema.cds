@@ -27,3 +27,10 @@ entity OrderItems : cuid {
     amount     : Integer;
     netAmount  : Decimal(10,2) @readonly;
 }
+
+entity Addresses {
+    address : String ;
+    city : String ;
+    state : String ;
+    country : String ;
+}
