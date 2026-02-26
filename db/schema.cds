@@ -34,3 +34,11 @@ entity Addresses {
     state : String ;
     country : String ;
 }
+
+entity BusinessParthners{
+
+    ID : UUID;
+    SupplierName : String;
+    City : String ;
+
+}
