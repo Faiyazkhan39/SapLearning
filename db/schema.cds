@@ -28,17 +28,17 @@ entity OrderItems : cuid {
     netAmount  : Decimal(10,2) @readonly;
 }
 
-entity Addresses {
-    address : String ;
-    city : String ;
-    state : String ;
-    country : String ;
-}
+// entity Addresses {
+//     address : String ;
+//     city : String ;
+//     state : String ;
+//     country : String ;
+// }
 
-entity BusinessParthners{
+// entity BusinessParthners{
 
-    ID : UUID;
-    SupplierName : String;
-    City : String ;
+//     ID : UUID;
+//     SupplierName : String;
+//     City : String ;
 
-}
+// }
